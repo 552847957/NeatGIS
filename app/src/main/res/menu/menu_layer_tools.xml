@@ -1,0 +1,47 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_layer_tools_operate"
+        android:title="操作">
+
+        <menu>
+            <item
+                android:id="@+id/menu_layer_tools_operate_move"
+                android:title="移动" />
+
+            <item
+                android:id="@+id/menu_layer_tools_operate_copy"
+                android:title="复制" />
+
+            <item
+                android:id="@+id/menu_layer_tools_operate_delete"
+                android:title="删除" />
+
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/menu_layer_tools_table"
+        android:title="数据表"/>
+
+
+    <item
+        android:id="@+id/menu_layer_tools_scale"
+        android:title="缩放"/>
+
+
+    <item
+        android:id="@+id/menu_layer_tools_opacity"
+        android:title="透明度"/>
+
+    <item
+        android:id="@+id/menu_layer_tools_export"
+        android:title="输出"/>
+
+
+    <item
+        android:id="@+id/menu_layer_tools_attribute"
+        android:title="属性"/>
+
+</menu>

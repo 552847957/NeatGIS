@@ -1,0 +1,66 @@
+<resources>
+
+    <string name="app_name">NeatGIS</string>
+    <string name="app_title_name_mian">通用应用程序框架</string>
+    <string name="app_title_name_subhead">基于ArcGIS Runtime SDK 100.x</string>
+    <string name="app_company">Copyright © gis-luq</string>
+
+    <!--解锁信息-->
+    <string name="loginRemark">请输入解锁密码</string>
+    <string name="permission">权限(permission)</string>
+    <string name="no_permissions">应用需要必要的运行权限</string>
+
+    <!--权限配置-->
+    <string name="settings">设置</string>
+    <string name="help">帮助</string>
+    <string name="string_help_text">当前应用缺少必要权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。\n\n最后点击两次后退按钮，即可返回。</string>
+    <string name="quit">退出</string>
+
+    <!--地图窗口-->
+    <string name="txt_location_info">(开启GPS) 坐标信息</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">MoyearZhou</string>
+    <string name="nav_header_subtitle">moyearzhou@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">设置</string>
+
+    <string name="menu_home">主页</string>
+    <string name="menu_project">项目</string>
+    <string name="menu_app">应用</string>
+    <string name="menu_tools">工具</string>
+    <string name="menu_setting">设置</string>
+    <string name="menu_about">关于</string>
+    <string name="title_activity_settings">设置</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_layout_attribute">LayoutAttributeActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+
+    <string-array name="arraySymbolCategory">
+        <item>单一符号</item>
+        <item>分类显示</item>
+        <item>延伸显示</item>
+        <item>图形显示</item>
+    </string-array>
+
+</resources>

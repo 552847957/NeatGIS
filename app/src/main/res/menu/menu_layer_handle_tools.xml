@@ -1,0 +1,63 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_layer_handle_tools_layer_add"
+        android:title="添加"/>
+
+    <item
+        android:id="@+id/menu_layer_handle_tools_scale"
+        android:title="缩放"/>
+
+    <item
+        android:id="@+id/menu_layer_handle_tools_resort"
+        android:title="排序"/>
+
+    <item
+        android:id="@+id/menu_layer_handle_tools_operate"
+        android:title="操作">
+
+        <menu>
+
+            <item
+                android:id="@+id/menu_layer_handle_tools_move"
+                android:title="移动"/>
+
+            <item
+                android:id="@+id/menu_layer_handle_tools_copy"
+                android:title="复制"/>
+
+            <item
+                android:id="@+id/menu_layer_handle_tools_delete"
+                android:title="删除"/>
+
+            <item
+                android:id="@+id/menu_layer_handle_tools_multi_operate"
+                android:title="批量">
+
+                <menu>
+
+                    <item
+                        android:id="@+id/menu_layer_handle_tools_openAllLayer"
+                        android:title="全部打开"/>
+
+                    <item
+                        android:id="@+id/menu_layer_handle_tools_closedAllLayer"
+                        android:title="全部关闭"/>
+
+                    <item
+                        android:id="@+id/menu_layer_handle_tools_reverseVisibleLayer"
+                        android:title="反选图层"/>
+
+                </menu>
+
+            </item>
+
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/menu_layer_handle_tools_attribute"
+        android:title="属性"/>
+
+</menu>

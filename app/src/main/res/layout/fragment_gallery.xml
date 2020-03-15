@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.moyear.neatgis.Views.DraggableCoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- This is where the app's content would be. -->
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+
+    <View
+        android:id="@+id/scrim"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/scrimBackground"
+        android:contentDescription="Close"
+        android:visibility="invisible"
+        app:layout_behavior="@string/fab_transformation_scrim_behavior"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_gravity="bottom|right"
+        android:contentDescription="Close"
+        app:srcCompat="@drawable/ic_map_black"/>
+
+    <com.google.android.material.transformation.TransformationChildCard
+        android:id="@+id/sheet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:layout_gravity="bottom|right"
+        android:visibility="invisible"
+        app:cardElevation="2dp"
+        app:layout_behavior="@string/fab_transformation_sheet_behavior">
+
+        <ImageButton
+            android:id="@+id/close_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|end"
+            android:padding="12dp"
+            android:background="?selectableItemBackgroundBorderless"
+            android:contentDescription="Close sheet"
+            android:scaleType="fitCenter"
+            android:tint="?attr/colorOnSurface"
+            app:srcCompat="@drawable/ic_map_black"/>
+
+        <!-- TransformationChildCard can contain arbitrary content provided by the app. -->
+        <FrameLayout
+            android:layout_width="250dp"
+            android:layout_height="350dp"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Expanded"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="floating"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                android:text="sheet"/>
+        </FrameLayout>
+
+    </com.google.android.material.transformation.TransformationChildCard>
+
+</com.moyear.neatgis.Views.DraggableCoordinatorLayout>

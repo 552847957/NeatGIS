@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_dialog_layer_attr_filed_item_view"
+        android:title="查看"/>
+
+    <item
+        android:id="@+id/menu_dialog_layer_attr_filed_item_export"
+        android:title="导出"/>
+
+    <item
+        android:id="@+id/menu_dialog_layer_attr_filed_item_remove"
+        android:title="移除"/>
+
+</menu>

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--
+App配置文件
+-->
+<configuration>
+    <!--Runtime 许可-->
+	<runtimekey license="ArcGIS Runtime许可信息"/>
+
+    <!--系统工作空间目录，已经修改过-->
+    <workspace path="/NeatGIS"/>
+
+    <!--widget组件列表-->
+    <widgetcontainer>
+        <widget label="图层管理" classname="com.moyear.neatgis.Widgets.LayerManagerWidget.LayerManagerWidget"
+	             icon="widget_layermanager.png" select_icon="widget_layermanager_select2.png"/>
+        <widget label="要素查询" classname="com.moyear.neatgis.Widgets.QueryWidget.QueryWidget"
+	            icon="widget_query.png" select_icon="widget_query_select2.png"/>
+        <widget label="要素编辑" classname="com.moyear.neatgis.Widgets.FeatureEditWidget.FeatureEditWidget"
+                icon="widget_featureedit.png" select_icon="widget_featureedit_select2.png"/>
+        <widget label="测距量算" classname="com.moyear.neatgis.Widgets.CalculateWidget.CaculateWidget"
+	            icon="widget_caculate.png" select_icon="widget_caculate_select2.png"/>
+        <widget label="测试1" classname="com.moyear.neatgis.Widgets.HelloWorldWidget" />
+        <widget label="测试2" classname="com.moyear.neatgis.Widgets.HelloWorldWidget" />
+    </widgetcontainer>
+</configuration>

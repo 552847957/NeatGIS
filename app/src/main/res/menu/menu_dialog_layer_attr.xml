@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_dialog_layer_attr_item_fix"
+        android:title="不固定"/>
+
+    <item
+        android:id="@+id/menu_layer_tools_operate"
+        android:title="操作">
+
+        <menu>
+            <item
+                android:id="@+id/menu_layer_tools_operate_move"
+                android:title="预览" />
+
+            <item
+                android:id="@+id/menu_layer_tools_operate_delete"
+                android:title="撤销" />
+
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/menu_dialog_layer_attr_item_setting"
+        android:title="设置"/>
+
+</menu>

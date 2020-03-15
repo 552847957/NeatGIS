@@ -1,0 +1,43 @@
+֧����������
+1��tpk - LocalTiledPackage
+2��server��Ƭ - LocalServerCache
+3��tiff - LocalGeoTIFF
+4��������Ƭ���� - OnlineTiledMapServiceLayer
+5�����߶�̬ͼ�� - OnlineDynamicMapServiceLayer
+6��vtpk-LocalVectorTilePackage
+7�����ͼʸ����ͼ - TianDiDuLayerMap
+8�����ͼӰ���ͼ - TianDiDuLayerImage
+9�����ͼ��עͼ�� - TianDiDuLayerImageLabel
+
+
+ʾ����
+
+{
+"layerName": "��ɫ���ĺ���Ȥ����й�������ͼ",    //����
+"layerType": "OnlineTiledMapServiceLayer",  //��������
+"path": "http://map.geoq.cn/arcgis/rest/services/ChinaOnlineStreetCold/MapServer", //���߷���ΪURL�������ļ�Ϊ�ļ������磺aa.tpk��������·����Ϣ��
+"layerIndex": 0, ͼ�����
+"visable": true, //�Ƿ���ʾ
+"layerOpacity": 1 //͸����
+},
+{
+  "layerName": "���ͼʸ����ͼ",
+  "layerType": "TianDiDuLayerMap",
+  "layerIndex": 3,
+  "visable": false,
+  "layerOpacity": 1
+},
+ {
+  "layerName": "���ͼӰ���ͼ",
+  "layerType": "TianDiDuLayerImage",
+  "layerIndex": 4,
+  "visable": true,
+  "layerOpacity": 1
+},
+ {
+  "layerName": "���ͼ��עͼ��",
+  "layerType": "TianDiDuLayerImageLabel",
+  "layerIndex": 5,
+  "visable": true,
+  "layerOpacity": 1
+}

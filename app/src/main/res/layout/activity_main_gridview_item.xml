@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/light_gray">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_item_ripple_light"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:padding="0.5dp">
+
+                <ImageView
+                    android:id="@+id/activity_main_gridview_item_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:minHeight="160dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@mipmap/empty_photo_large" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/activity_main_gridview_item_txtName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:layout_marginTop="5dp"
+                android:padding="3dp"
+                android:singleLine="true"
+                android:text="测试资源标题"
+                android:textColor="@color/textColor"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/activity_main_gridview_item_txtRemark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:isScrollContainer="false"
+                android:maxLines="2"
+                android:minLines="2"
+                android:paddingEnd="2dp"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:text="说明"
+                android:textSize="10sp"
+                android:visibility="visible"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

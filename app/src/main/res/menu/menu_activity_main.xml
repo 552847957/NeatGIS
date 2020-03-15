@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_maps_search"
+        android:title="搜素"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        android:orderInCategory="60"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_projects_refresh"
+        android:title="刷新"/>
+
+    <item
+        android:id="@+id/menu_project_new"
+        android:title="新建"/>
+
+    <item
+        android:id="@+id/menu_project_open"
+        android:title="打开">
+
+        <menu>
+            <group
+                android:checkableBehavior="none">
+
+                <item
+                    android:id="@+id/menu_open_from_local"
+                    android:title="打开本地项目">
+                </item>
+
+                <item
+                    android:id="@+id/menu_open_from_web"
+                    android:title="打开网络地图">
+                </item>
+
+                <item
+                    android:id="@+id/menu_open_sample"
+                    android:title="打开示例工程">
+                </item>
+            </group>
+
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/menu_projects_sort"
+        android:title="排序"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/menu_projects_layout"
+        android:title="布局" >
+
+        <menu>
+            <group
+                android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/menu_notes_layout_list"
+                    android:title="列表"
+                    android:checked="true">
+                </item>
+
+                <item
+                    android:id="@+id/menu_notes_layout_grid"
+                    android:title="方格">
+                </item>
+
+            </group>
+
+        </menu>
+
+    </item>
+
+</menu>
